@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+   <style>
+     /* p:hover {
+        background-color: black;
+        color: white;
+    } */
+    input:focus{
+        color: red;
+        background-color: black;
+        font-size: 25px;
+    }
+    /* a:hover{
+        color: pink;
+    }
+    a:active{
+        color: brown;
+    }
+    a:visited{
+        color: black;
+    } */
+    /* a:nth-child(odd){
+        background-color: yellow;
+    } */
+    p::first-line{
+        color: red;
+    }
+    p::after{
+        content: "-Aman";
+        color: aqua;
+    }
+    p::before{
+        content: "-Aman";
+        color: aqua;
+    }
+    p::selection{
+        background-color: black;
+        color: yellow;
+    }
+   </style>
+</head>
+<body>
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste?</p>
+    <input type="text">
+    <hr>
+    <nav>
+        <a href="www.google.com">Google</a>
+    <a href="www.google.com">Google</a>
+    <a href="www.google.com">Google</a>
+    <a href="www.google.com">Google</a>
+    </nav> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ad omnis maiores culpa dolorem quaerat nam, error vero eum tenetur sed veniam animi, facilis sapiente eaque nihil necessitatibus? Quisquam, minima accusantium? Praesentium voluptates tempora reprehenderit dolores animi libero incidunt laudantium, iusto hic ab possimus ducimus quam magni eum nihil aspernatur?</p>
+</body>
+</html>

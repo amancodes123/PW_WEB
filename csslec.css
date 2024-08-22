@@ -1,0 +1,54 @@
+/* Universal Selector */
+*{
+   margin: 0;
+   padding: 0;
+}
+/* Element Selector */
+h1{
+    color: #808080;
+}
+p{
+    color: red;
+}
+/* class selector */
+.pra{
+    color: #808080;
+}
+.hello{
+    font-size: 43px;
+}
+/* ID Selector */
+#id1{
+    color: whitesmoke;
+    background-color: black;
+}
+/* Selector List */
+/* .class1 , .class7,.class10{
+    
+} */
+
+/* Descendent selector */
+main p {
+    color: red;
+}
+
+/* child sel */
+h1>p{
+    color: blue;
+}
+
+/* Sibling sel */
+section + p {
+    color: yellow;
+}
+
+/* Genral sel */
+section ~ p {
+    color: yellow;
+}
+
+/*Atteibute sel */
+[target="_blank"]{
+    color: pink;
+    text-decoration: none;
+}
